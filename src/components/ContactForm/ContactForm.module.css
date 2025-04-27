@@ -4,14 +4,12 @@
   align-items: center;
   padding: 20px;
   border: 1px solid #ccc;
-  /* border: 2px solid rgb(255, 255, 255); */
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   gap: 8px;
   margin-bottom: 16px;
   max-width: 180px;
   align-self: center;
-  /* backdrop-filter: blur(20px); */
 }
 
 .label {
@@ -66,34 +64,3 @@
   align-items: center;
   align-self: center;
 }
-
-/* .form {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-  width: 400px;
-  margin: 0 auto 30px;
-  padding: 20px;
-  border: 1px solid black;
-  border-radius: 10px;
-  background-color: aliceblue;
-}
-
-.inputWrapper {
-  display: flex;
-  flex-direction: column;
-  gap: 5px;
-}
-
-.input {
-  width: 100%;
-  padding: 10px;
-  border: 1px solid black;
-  border-radius: 10px;
-  font-size: 20px;
-}
-
-.errorMessage {
-  color: red;
-  font-size: 14px;
-} */

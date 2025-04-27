@@ -16,7 +16,7 @@ import {
 const persistConfig = {
   key: "items",
   storage,
-  whitelist: ["items"], // Тільки ці властивості зберігаються
+  whitelist: ["items"],
 };
 
 const persistedContactsReducer = persistReducer(persistConfig, contactsReducer);
